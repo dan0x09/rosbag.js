@@ -21,7 +21,6 @@
     "README.md"
   ],
   "scripts": {
-    "prepack": "yarn run build",
     "lint": "yarn run tsc --noEmit && eslint src && prettier -l 'src/**/*.ts'",
     "lint:fix": "eslint --fix src && prettier --write -l 'src/**/*.ts'",
     "test": "yarn run jest --verbose && yarn run lint",
